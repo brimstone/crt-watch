@@ -1,9 +1,14 @@
 module github.com/brimstone/crt-watch
 
-go 1.14
+go 1.24.0
+
+toolchain go1.24.4
+
+require github.com/brimstone/logger v0.0.0-20220623184533-a0bc3dcb2ed6
 
 require (
-	github.com/brimstone/logger v0.0.0-20190305213436-e43a5c888c8a
-	github.com/sirupsen/logrus v1.4.1 // indirect
-	golang.org/x/crypto v0.17.0 // indirect
+	github.com/sirupsen/logrus v1.9.3 // indirect
+	golang.org/x/crypto v0.43.0 // indirect
+	golang.org/x/sys v0.37.0 // indirect
+	golang.org/x/term v0.36.0 // indirect
 )
